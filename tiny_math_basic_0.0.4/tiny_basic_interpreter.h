@@ -70,7 +70,6 @@ NOTHING
 typedef enum
 {
     var_null = 0,
-    var_int,
     var_double,
     var_string
 } variant_type;
@@ -89,7 +88,7 @@ typedef struct
 
 typedef struct varname
 {
-    STR name;
+    STR name ;
     int name_ptr;
 } VAR_NAME;
 
